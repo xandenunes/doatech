@@ -34,7 +34,7 @@ function Cover() {
       <Card>
         <MDBox
           variant="gradient"
-          bgColor="info"
+          bgColor="success"
           borderRadius="lg"
           coloredShadow="success"
           mx={2}
@@ -44,7 +44,7 @@ function Cover() {
           textAlign="center"
         >
           <MDTypography variant="h3" fontWeight="medium" color="white" mt={1}>
-            Reset Password
+            Resetar a Senha
           </MDTypography>
           <MDTypography display="block" variant="button" color="white" my={1}>
             Você ira receber um email em no máximo 60 segundos
@@ -53,11 +53,11 @@ function Cover() {
         <MDBox pt={4} pb={3} px={3}>
           <MDBox component="form" role="form">
             <MDBox mb={4}>
-              <MDInput type="email" label="Email" variant="standard" fullWidth />
+              <MDInput type="email" label="E-mail" variant="standard" fullWidth />
             </MDBox>
             <MDBox mt={6} mb={1}>
-              <MDButton variant="gradient" color="info" fullWidth>
-                reset
+              <MDButton variant="gradient" color="error" fullWidth>
+                resetar senha
               </MDButton>
             </MDBox>
           </MDBox>
